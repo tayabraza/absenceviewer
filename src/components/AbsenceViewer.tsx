@@ -68,7 +68,7 @@ function AbsenceViewer(props: { absences: Absence[]}) {
             </table>
 
             <div id="modal" className="fixed inset-0 bg-gray-900 bg-opacity-50 flex items-center justify-center hidden">
-                <div className="bg-white rounded-lg shadow-lg p-8 w-auto ">
+                <div className="bg-white rounded-lg shadow-lg p-8 w-auto overflow-scroll">
 
                     {allAbsences.map( (employee) => {
                         return (
