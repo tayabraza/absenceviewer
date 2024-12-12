@@ -30,7 +30,6 @@ function AbsenceViewer(props: { absences: Absence[]}) {
         } finally {
             setAllAbsences(allDetail)
             modal?.classList.remove("hidden");
-            console.log(conflict)
         }
 
 
